@@ -70,7 +70,7 @@
                         <align>center</align>
                         <font>HomeItemFont</font>
                         <include>TextColor_MainColor</include>
-                        <label>Nebula</label>
+                        <label>K-Sys</label>
                     </control>
                     <control type="label">
                         <posx>75</posx>
