@@ -573,7 +573,7 @@
         <value condition="skin.hassetting(Theme.Color.Auto)+!System.Time(8:00,20:00)">black</value>
         <value condition="skin.hassetting(Theme.Color.Black)">black</value>
         <value condition="skin.hassetting(Theme.Color.White)">white</value>
-        <value>white</value>
+        <value>black</value>
     </variable>
     <variable name="SkinSettings.RandomBackground.Art">
         <value condition="Skin.HasSetting(Default.Background.EnableRandomFanart)+!Skin.HasSetting(plexbmc)+Container(9004).HasFocus(0)">$INFO[Window(Home).Property(SkinHelper.GlobalFanartBackground)]</value>
