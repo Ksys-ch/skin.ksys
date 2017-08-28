@@ -130,7 +130,7 @@
         <value condition="Control.hasfocus(700031)|Control.hasfocus(700032)|Control.hasfocus(700033)|Control.hasfocus(700034)|Control.hasfocus(700035)">$INFO[Container(300).ListItem.Property(widgetName.2)]</value>
         <value condition="Control.hasfocus(700041)|Control.hasfocus(700042)|Control.hasfocus(700043)|Control.hasfocus(700044)|Control.hasfocus(700045)">$INFO[Container(300).ListItem.Property(widgetName.3)]</value>
         <value condition="Control.hasfocus(700051)|Control.hasfocus(700052)|Control.hasfocus(700053)|Control.hasfocus(700054)|Control.hasfocus(700055)">$INFO[Container(300).ListItem.Property(widgetName.4)]</value>
-        <value>KODI</value>
+        <value>KTV</value>
     </variable>
     <variable name="HomeSubTitles">
         <value condition="Control.hasfocus(900)">$INFO[Container(900).NumItems,, $LOCALIZE[31025]]$INFO[Container(900).CurrentPage, - ]$INFO[Container(900).NumPages,/]</value>
