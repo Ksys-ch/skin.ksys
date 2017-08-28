@@ -56,31 +56,11 @@
                     <control type="image">
                         <include>ConditionBlack</include>
                         <posx>571</posx>
-                        <posy>621</posy>
+                        <posy>760</posy>
                         <width>202</width>
                         <height>56</height>
                         <texture>$VAR[Theme.Color]/common/logo-ktv.png</texture>
                         <colordiffuse>MainColor_black</colordiffuse>
-                    </control>
-                    <control type="label">
-                        <posx>75</posx>
-                        <posy>711</posy>
-                        <height>36</height>
-                        <width>1196</width>
-                        <align>center</align>
-                        <font>HomeItemFont</font>
-                        <include>TextColor_MainColor</include>
-                        <label>K-Sys</label>
-                    </control>
-                    <control type="label">
-                        <posx>75</posx>
-                        <posy>771</posy>
-                        <height>36</height>
-                        <width>1196</width>
-                        <align>center</align>
-                        <font>WindowTitleSubFont</font>
-                        <include>TextColor_MainColor</include>
-                        <label>$INFO[Window(Home).Property(SkinHelper.skinVersion)] by Tgx</label>
                     </control>
                 </control>
             </control>
