@@ -50,7 +50,7 @@
                         <posy>621</posy>
                         <width>202</width>
                         <height>56</height>
-                        <texture>$VAR[Theme.Color]/common/logo.png</texture>
+                        <texture>$VAR[Theme.Color]/common/logo-ktv.png</texture>
                         <colordiffuse>MainColor_white</colordiffuse>
                     </control>
                     <control type="image">
@@ -59,7 +59,7 @@
                         <posy>621</posy>
                         <width>202</width>
                         <height>56</height>
-                        <texture>$VAR[Theme.Color]/common/logo.png</texture>
+                        <texture>$VAR[Theme.Color]/common/logo-ktv.png</texture>
                         <colordiffuse>MainColor_black</colordiffuse>
                     </control>
                     <control type="label">
