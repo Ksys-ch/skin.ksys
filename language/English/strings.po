@@ -412,7 +412,11 @@ msgctxt "#31114"
 msgid "Multi Image"
 msgstr ""
 
-#empty strings from id 31115 to 31131
+#empty strings from id 31115 to 31130
+
+msgctxt "#31131"
+msgid "Replays"
+msgstr ""
 
 msgctxt "#31132"
 msgid "Lyrics Add-on"

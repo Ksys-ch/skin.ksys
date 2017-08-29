@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts>
+    <shortcut>
+        <defaultID>replayByChannels</defaultID>
+        <label>$ADDON[plugin.video.replayksys 31000]</label>
+        <label2>Replays</label2>
+        <icon>DefaultShortcut.png</icon>
+        <thumb/>
+        <action>ActivateWindow(videos,plugin://plugin.video.replayksys/?action=listingChannels,return)</action>
+    </shortcut>
+    <shortcut>
+        <defaultID>replayByDate</defaultID>
+        <label>$ADDON[plugin.video.replayksys 31001]</label>
+        <label2>Replays</label2>
+        <icon>DefaultShortcut.png</icon>
+        <thumb/>
+        <action>ActivateWindow(videos,plugin://plugin.video.replayksys/?action=listingCategories,return)</action>
+    </shortcut>
+    <shortcut>
+        <defaultID>replaySettings</defaultID>
+        <label>$ADDON[plugin.video.replayksys 31002]</label>
+        <label2>Replays</label2>
+        <icon>DefaultShortcut.png</icon>
+        <thumb/>
+        <action>RunPlugin(plugin://plugin.video.replayksys/?action=settings)</action>
+    </shortcut>
+</shortcuts>

@@ -8,6 +8,7 @@
     <icon labelID="pictures">special://skin/backgrounds/Pictures.jpg</icon>
     <icon labelID="tvshows">special://skin/backgrounds/TVShows.jpg</icon>
     <icon labelID="livetv">special://skin/backgrounds/Tv.jpg</icon>
+    <icon labelID="31131">special://skin/backgrounds/Replays.jpg</icon>
     <icon labelID="radio">special://skin/backgrounds/Radio.jpg</icon>
     <icon labelID="music">special://skin/backgrounds/Music.jpg</icon>
     <icon labelID="music--0">special://skin/backgrounds/Music.jpg</icon>
@@ -43,6 +44,7 @@
     <backgrounddefault labelID="pictures">Pictures.Art</backgrounddefault>
     <backgrounddefault labelID="tvshows">TVShows.Art</backgrounddefault>
     <backgrounddefault labelID="livetv">Tv.Art</backgrounddefault>
+    <backgrounddefault labelID="replays">Replays.Art</backgrounddefault>
     <backgrounddefault labelID="radio">Radio.Art</backgrounddefault>
     <backgrounddefault labelID="music">Music.Art</backgrounddefault>
     <backgrounddefault labelID="music--0">Music.Art</backgrounddefault>

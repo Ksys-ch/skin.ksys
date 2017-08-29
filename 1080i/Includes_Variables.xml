@@ -382,6 +382,10 @@
         <value condition="!String.IsEmpty(Skin.String(Tv.Background))">$INFO[Skin.String(Tv.Background)]</value>
         <value>special://skin/backgrounds/Tv.jpg</value>
     </variable>
+    <variable name="Replays.Art">
+        <value condition="!String.IsEmpty(Skin.String(Replays.Background))">$INFO[Skin.String(Replays.Background)]</value>
+        <value>special://skin/backgrounds/Replays.jpg</value>
+    </variable>
     <variable name="Radio.Art">
         <value condition="!String.IsEmpty(Skin.String(Radio.Background))">$INFO[Skin.String(Radio.Background)]</value>
         <value>special://skin/backgrounds/Radio.jpg</value>
@@ -435,6 +439,7 @@
         <value condition="String.IsEqual(Container(300).ListItem.Property(Background),Pictures.Art)">$VAR[Pictures.Art]</value>
         <value condition="String.IsEqual(Container(300).ListItem.Property(Background),TVShows.Art)">$VAR[TVShows.Art]</value>
         <value condition="String.IsEqual(Container(300).ListItem.Property(Background),Tv.Art)">$VAR[Tv.Art]</value>
+        <value condition="String.IsEqual(Container(300).ListItem.Property(Background),Replays.Art)">$VAR[Replays.Art]</value>
         <value condition="String.IsEqual(Container(300).ListItem.Property(Background),Radio.Art)">$VAR[Radio.Art]</value>
         <value condition="String.IsEqual(Container(300).ListItem.Property(Background),Music.Art)">$VAR[Music.Art]</value>
         <value condition="String.IsEqual(Container(300).ListItem.Property(Background),Clips.Art)">$VAR[Clips.Art]</value>
@@ -469,6 +474,7 @@
         <value condition="String.IsEqual(Container(211).ListItem.Property(Background),Pictures.Art)">$VAR[Pictures.Art]</value>
         <value condition="String.IsEqual(Container(211).ListItem.Property(Background),TVShows.Art)">$VAR[TVShows.Art]</value>
         <value condition="String.IsEqual(Container(211).ListItem.Property(Background),Tv.Art)">$VAR[Tv.Art]</value>
+        <value condition="String.IsEqual(Container(211).ListItem.Property(Background),Replays.Art)">$VAR[Replays.Art]</value>
         <value condition="String.IsEqual(Container(211).ListItem.Property(Background),Radio.Art)">$VAR[Radio.Art]</value>
         <value condition="String.IsEqual(Container(211).ListItem.Property(Background),Music.Art)">$VAR[Music.Art]</value>
         <value condition="String.IsEqual(Container(211).ListItem.Property(Background),Clips.Art)">$VAR[Clips.Art]</value>

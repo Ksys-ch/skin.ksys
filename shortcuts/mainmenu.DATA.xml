@@ -81,6 +81,14 @@
         <action>ActivateWindow(TVChannels)</action>
     </shortcut>
     <shortcut>
+        <defaultID>replays</defaultID>
+        <label>31131</label>
+        <label2>Common Shortcut</label2>
+        <icon>special://skin/backgrounds/Replays.jpg</icon>
+        <thumb></thumb>
+        <action>RunAddOn(plugin.video.replayksys)</action>
+    </shortcut>
+    <shortcut>
         <visible>Pvr.HasRadioChannels</visible>
         <defaultID>radio</defaultID>
         <label>32087</label>
