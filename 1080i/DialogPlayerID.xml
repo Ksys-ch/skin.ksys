@@ -105,13 +105,6 @@
                           <pagecontrol>61</pagecontrol>
                       </control>
                 </control>
-
-                <control type="scrollbar" id="61">
-                    <posx>1886</posx>
-                    <posy>360</posy>
-                    <height>578</height>
-                    <include>VerticalScroller</include>
-                </control>
             </control>
         </control>
     </controls>
