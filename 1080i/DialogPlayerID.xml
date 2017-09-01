@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window>
+    <defaultcontrol>61</defaultcontrol>
+    <controls>
+        <!-- <include>DimBG</include> -->
+        <include>TopBar</include>
+        <control type="group">
+            <include>FacadeFadeDialogs3rdLevelCondition</include>
+            <control type="group">
+                <include>DialogOpenClose</include>
+                <control type="image">
+                    <posx>-760</posx>
+                    <posy>150</posy>
+                    <width>2930</width>
+                    <height>876</height>
+                    <texture border="150,40,150,40">$VAR[Theme.Color]/common/bg_dialog.png</texture>
+                </control>
+                <control type="image">
+                    <posx>100</posx>
+                    <posy>142</posy>
+                    <width>1720</width>
+                    <height>217</height>
+                    <texture border="100">$VAR[Theme.Color]/common/bg_list.png</texture>
+                </control>
+                <control type="label" id="1">
+                    <posx>TextMargin</posx>
+                    <posy>183</posy>
+                    <width>1800</width>
+                    <height>135</height>
+                    <align>center</align>
+                    <font>InfoTitleFont</font>
+                    <include>TextColor_MainColor</include>
+                </control>
+
+                <control type="label" id="5">
+                    <posx>TextMargin</posx>
+                    <posy>360</posy>
+                    <width>1800</width>
+                    <height>40</height>
+                    <align>center</align>
+                    <font>InfoPlotFont</font>
+                    <pagecontrol>61</pagecontrol>
+                </control>
+
+                <!--<control type="group" id="18">
+                  <posy>400</posy>
+                  <width>1920</width>
+                  <height>150</height>
+                  <visible>true</visible>
+                  <align>center</align>
+                  <control type="image">
+                      <width>1920</width>
+                      <height>150</height>
+                      <texture>$VAR[Theme.Color]/common/bg_grid.png</texture>
+                  </control>-->
+                <control type="label" id="6">
+                    <posx>TextMargin</posx>
+                    <posy>460</posy>
+                    <width>1800</width>
+                    <height>40</height>
+                    <align>center</align>
+                    <font>PlayerID</font>
+                    <pagecontrol>61</pagecontrol>
+                </control>
+                <!--</control>-->
+
+                <control type="label" id="7">
+                    <posx>TextMargin</posx>
+                    <posy>560</posy>
+                    <width>1800</width>
+                    <height>40</height>
+                    <align>center</align>
+                    <font>InfoPlotFont</font>
+                    <pagecontrol>61</pagecontrol>
+                </control>
+                <control type="image" id="63">
+                    <posx>810</posx>
+                    <posy>600</posy>
+                    <width>300</width>
+                    <height>300</height>
+                    <texture>qr_code/QRCode_playerId.png</texture>
+                </control>
+
+                <control type="group" id="17">
+                      <posx>TextMargin</posx>
+                      <posy>900</posy>
+                      <width>1800</width>
+                      <height>40</height>
+                      <visible>true</visible>
+
+                      <control type="image" id="62">
+                          <posx>10</posx>
+                          <posy>10</posy>
+                          <width>40</width>
+                          <height>40</height>
+                          <texture>$VAR[Theme.Color]/OSD/loading.png</texture>
+                          <animation effect="rotate" center="auto" start="360" end="0" time="750" loop="true" condition="true">Conditional</animation>
+                      </control>
+                      <control type="label" id="8">
+                          <posx>60</posx>
+                          <posy>10</posy>
+                          <width>500</width>
+                          <height>40</height>
+                          <font>InfoPlotFont</font>
+                          <pagecontrol>61</pagecontrol>
+                      </control>
+                </control>
+
+                <control type="scrollbar" id="61">
+                    <posx>1886</posx>
+                    <posy>360</posy>
+                    <height>578</height>
+                    <include>VerticalScroller</include>
+                </control>
+            </control>
+        </control>
+    </controls>
+</window>
